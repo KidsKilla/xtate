@@ -16,15 +16,15 @@ normalised state
 ## Subscriptions
 Whitelist
 subscribe to all: *
-events are actions like:
-	- type 
-	- meta
-	- payload 
-	- error?
+events are redux actions like:
+* type 
+* meta
+* payload 
+* error?
 	
 ## Computables
 subscribes to changes
-can memoise based on collectionName/id/version via JSON.stringify + sha
+can memoise based on collectionName/id/version via `JSON.stringify` + `sha`?
 ### Collection params
 Config for sorting
 
